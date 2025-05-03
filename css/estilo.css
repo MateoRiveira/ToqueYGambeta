@@ -84,6 +84,47 @@
 }
 
 /*Valores que se repiten*/
+footer p {
+  margin-bottom: 1px;
+  text-align: left;
+  margin: 10px;
+  font-size: 20px;
+}
+
+footer img {
+  color: #D8C4B6;
+  margin-left: 100px;
+  margin-right: -80px;
+}
+
+h2 {
+  color: #3E5879;
+  background-color: #F5EFE7;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+header h1 {
+  font-family: "Nunito Sans", sans-serif;
+  color: #D8C4B6;
+  text-decoration: none;
+}
+
+li {
+  font-family: "Nunito Sans", sans-serif;
+  margin-top: 150px;
+  margin-left: 100px;
+}
+
+.formulario {
+  color: #213555;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.contacto {
+  color: #213555;
+}
+
 .encabezado {
   display: grid;
   align-items: center;
@@ -126,6 +167,16 @@ body {
   font-weight: normal;
   margin: 20px;
   margin-top: 150px;
+}
+
+.ejecutivos {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  padding: 20px;
+  margin-left: 450px;
 }
 
 /*MEDIA QUERYS*/
@@ -215,6 +266,11 @@ body {
   .camisetas-equipos {
     display: flex;
     font-size: 15px;
+  }
+  .ejecutivos {
+    display: flex;
+    margin-left: 150px;
+    height: 100%;
   }
 }
 
