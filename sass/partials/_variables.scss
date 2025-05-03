@@ -1,0 +1,10 @@
+    $azul-oscuro: #213555;
+    $gris:#D8C4B6;
+    $blanco:  #F5EFE7;
+    $font: "Nunito Sans", sans-serif;
+
+    @mixin flex_config ($direccion, $justify, $align ){
+        flex-direction: $direccion;
+        justify-content: $justify;
+        align-items: $align;
+    }

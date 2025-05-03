@@ -1,0 +1,122 @@
+
+/*  PAGINA    */
+
+/* Reset*/    
+* {margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}    
+
+
+/* INDEX */
+
+
+.formulario{color:#3E5879;
+    font-size: 30px; 
+    font-weight: bold;
+}
+
+.contenedor-imagen{
+    margin-left: 1000px;
+    width: 1000px ;
+    margin-top: -700px;
+    margin-bottom: 700px;
+}    
+
+.imagen{
+    box-shadow: -5px 1px 38px -3px rgba(0,0,0,1);
+}
+
+
+footer p{
+    margin-bottom: 1px;
+    text-align: left;
+    margin: 10px;
+    font-size: 20px;
+}
+
+footer img{
+    color: #D8C4B6;
+    margin-left: 100px;
+    margin-right: -80px;
+} 
+        
+h2{
+    color: #3E5879;
+    background-color: #F5EFE7; 
+    font-family: "Nunito Sans", sans-serif; 
+}
+
+header h1{ 
+    font-family: "Nunito Sans", sans-serif;
+    color:#D8C4B6;
+    text-decoration: none;
+}
+
+
+li {font-family: "Nunito Sans", sans-serif;
+    margin-top: 150px;
+    margin-left: 100px;
+}
+       
+
+.contacto{
+    color: #213555;
+    
+}
+
+
+
+
+/* Pantalones */
+
+.contenedor-logos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px;
+}
+
+.logos-pant{
+    width: 33.3%;
+    padding: 10px;
+    margin-left: 200px;
+}
+
+.pantalones{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around
+}
+
+
+.pantalonnike{
+    width: 33.3%;
+    margin-left: 10px;
+}
+
+.pantalonadidas{
+    width: 33.3%;
+
+}
+
+.pantalonpuma{
+    width: 33.3%;
+    margin-left: 10px;
+}
+
+.explora-mas{   
+    flex-direction: row;
+
+}
+
+/* Pelotas */
+
+.contenedor-pelotas{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+
+
+

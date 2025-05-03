@@ -1,0 +1,162 @@
+//Empezamos el Sass
+/*Reacomodo el CSS*/
+
+
+//nesting - anidamiento
+
+
+
+
+/*Index*/ 
+
+//@import "partials/index"
+@use "partials/variables";
+
+@use"partials/index";
+@use "partials/camisetas";
+
+/* Reset*/    
+* {margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}    
+
+/*Valores que se repiten*/
+
+.encabezado{
+    display: grid;
+    align-items: center ;
+    background-color:  variables.$azul-oscuro;
+    width: 100%;
+    font-family: variables.$font;
+}
+
+body{
+    background-color: variables.$blanco;   
+    font-family: variables.$font;  
+}
+
+.links{
+    color: variables.$gris;
+    font-size: 30px;
+    margin-left: 70px; 
+    font-family: variables.$font;}
+
+.pie-de-pagina{
+    display: flex;
+    @include variables.flex_config(row, left, flex-start);
+    background-color: variables.$azul-oscuro;
+    width: 100%;
+    color: variables.$gris;
+    margin-top: 200px;
+    font-family: variables.$font;}
+
+
+.parrafos{
+    font-family: variables.$font;
+    color: variables.$azul-oscuro;
+    background-color: variables.$blanco;
+    font-size: 30px; 
+    text-transform: capitalize;
+    text-align: center;
+    font-weight: normal;
+    margin: 20px;
+    margin-top: 150px;
+}         
+
+
+/*MEDIA QUERYS*/    
+@media (max-width: 576px) {
+
+    /*index*/
+    .intro{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 15px;
+    align-items: center;
+    padding: 10px;}
+
+    .links-encabezados{
+    display: flex;
+    @include variables.flex_config(column,flex-start,center);
+    margin: 10px;
+    margin-left: 200px;
+    font-size: larger;}
+
+    .links{
+    display: flex;
+    @include variables.flex_config(row,flex-start,center);
+    margin: 5px;
+    padding: 20px;
+    margin-left: 20px;
+    font-size: larger; }
+
+    .links-index{
+    flex-direction: column;
+    justify-content: flex-start;
+    font-size: 70px;}
+
+    .contenedor-opinion{
+    margin-top: 400px;}
+
+    .titulo-principal{
+    display: flex;}    
+
+    .pie-de-pagina{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 800px;}
+        
+    .pie-de-pagina img{
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin: 10px;
+    justify-content: space-between;}
+    
+    /*Camisetas*/
+    .header-camisetas{
+    display: flex;
+    margin: 10px;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    font-size: 30px;}
+
+
+    .imagenes-offcanva{
+    width: 100px;}
+
+    .imagenes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 120px;}
+
+    .subtitulo{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 35px;
+    justify-content: center;}
+
+    .parrafos{
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    justify-content: center;
+    align-items: center;
+    }
+
+    .camisetas-equipos{
+        display: flex;
+        font-size: 15px;
+    }
+
+    
+
+
+
+
+
+}

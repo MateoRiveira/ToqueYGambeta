@@ -1,0 +1,16 @@
+@use "variables";
+
+
+
+
+
+.camisetas-equipos{
+    list-style: none;
+    color: variables.$azul-oscuro;
+}
+
+.contenedor-camiseta{
+    display: flex;
+    width: 98%;
+    @include variables.flex_config(row, center, center);
+}
