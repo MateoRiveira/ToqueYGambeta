@@ -1,5 +1,22 @@
 /*Reacomodo el CSS*/
+
+/* Reset*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 /*Index*/
+
+.encabezado {
+  display: grid;
+  align-items: center;
+  background-color: #213555;
+  width: 100%;
+  font-family: "Nunito Sans", sans-serif;
+}
+
 .titulo-principal {
   display: block;
   background-color: #213555;
@@ -18,7 +35,7 @@
   font-family: "Nunito Sans", sans-serif;
 }
 
-.intro {
+.intro{
   width: 100%;
   height: 100%;
   color: #213555;
@@ -63,6 +80,13 @@
   padding: 5px;
 }
 
+.links {
+  color: #D8C4B6;
+  font-size: 30px;
+  margin-left: 70px;
+  font-family: "Nunito Sans", sans-serif;
+}
+
 .camisetas-equipos {
   list-style: none;
   color: #213555;
@@ -76,12 +100,6 @@
   align-items: center;
 }
 
-/* Reset*/
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 
 /*Valores que se repiten*/
 footer p {
@@ -125,37 +143,16 @@ li {
   color: #213555;
 }
 
-.encabezado {
-  display: grid;
-  align-items: center;
-  background-color: #213555;
-  width: 100%;
-  font-family: "Nunito Sans", sans-serif;
-}
+
 
 body {
   background-color: #F5EFE7;
   font-family: "Nunito Sans", sans-serif;
 }
 
-.links {
-  color: #D8C4B6;
-  font-size: 30px;
-  margin-left: 70px;
-  font-family: "Nunito Sans", sans-serif;
-}
 
-.pie-de-pagina {
-  display: flex;
-  flex-direction: row;
-  justify-content: left;
-  align-items: flex-start;
-  background-color: #213555;
-  width: 100%;
-  color: #D8C4B6;
-  margin-top: 200px;
-  font-family: "Nunito Sans", sans-serif;
-}
+
+
 
 .parrafos {
   font-family: "Nunito Sans", sans-serif;
@@ -177,6 +174,18 @@ body {
   width: 50%;
   padding: 20px;
   margin-left: 450px;
+}
+
+.pie-de-pagina {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: flex-start;
+  background-color: #213555;
+  width: 100%;
+  color: #D8C4B6;
+  margin-top: 200px;
+  font-family: "Nunito Sans", sans-serif;
 }
 
 /*MEDIA QUERYS*/
