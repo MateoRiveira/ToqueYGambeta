@@ -228,7 +228,7 @@ body {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 800px;
+    width: 100%;
   }
   .pie-de-pagina img {
     flex-direction: row;
