@@ -159,7 +159,7 @@ body{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 800px;}
+    width: 100%;}
         
     .pie-de-pagina img{
     flex-direction: row;
@@ -212,9 +212,19 @@ body{
         height: 100%;
         
     }
-
-
-
-
-
 }
+
+@media (min-width: 577px), (max-width:1415px) {
+
+    .links-encabezados{
+    display: flex;
+    @include variables.flex_config(column,flex-start,center);
+    margin: 10px;
+    margin-left: 200px;
+    font-size: larger;}
+
+
+
+
+
+} 
