@@ -214,14 +214,10 @@ body{
     }
 }
 
-@media (min-width: 577px), (max-width:1415px) {
+@media (min-width: 577px), (max-width:1110px) {
 
-    .links-encabezados{
-    display: flex;
-    @include variables.flex_config(column,flex-start,center);
-    margin: 10px;
-    margin-left: 200px;
-    font-size: larger;}
+
+
 
 
 
