@@ -8,22 +8,18 @@
     font-size: 2rem;}  
 
 .links-encabezados{
-    list-style: none;
-    margin: 0;
-    padding: 0;
     color: variables.$gris;
     font-size: 1.5rem;
-    margin-left: 90%; 
+    width: 100%;
+    margin-left: 88%; 
     font-family: variables.$font;}
 
 .intro{
     width: 100%;
-    height: 100%;
     color: variables.$azul-oscuro;
     display: flex;
     flex-direction: row;
-    margin: 15px;
-    padding: 5px;
+    padding: 22px;
     font-size: 2.2rem;
     margin-top: 15px;
     justify-content: center;
