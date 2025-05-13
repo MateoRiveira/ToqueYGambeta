@@ -214,7 +214,64 @@ body{
     }
 }
 
-@media (min-width: 577px), (max-width:1110px) {
+@media (min-width: 577px) and (max-width:1110px) {
+
+    .intro{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 15px;
+    align-items: center;
+    padding: 10px;}
+
+    .links-encabezados{
+    display: flex;
+    @include variables.flex_config(column,flex-start,center);
+    margin: 10px;
+    margin-left: 300px;
+    font-size: larger;}
+
+    
+    .links-index{
+    flex-direction: column;
+    justify-content: flex-start;
+    font-size: 70px;
+    margin: 5px;}
+
+    .contenedor-opinion{
+    margin-top: 400px;}
+
+    .pie-de-pagina{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;}
+        
+    .pie-de-pagina img{
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin: 10px;
+    justify-content: space-between;}
+
+    .links{
+    display: flex;
+    @include variables.flex_config(row,flex-start,center);
+    margin: 5px;
+    padding: 20px;
+    margin-left: 20px;
+    font-size: larger; }
+
+    .parrafos{
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    justify-content: center;
+    align-items: center;
+    }
+
+    .camisetas-equipos{
+    display: flex;
+    font-size: 15px;
+    }
 
 
 
