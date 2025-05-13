@@ -161,11 +161,12 @@ body{
     flex-wrap: wrap;
     width: 100%;}
         
-    .pie-de-pagina img{
+  a img {
     flex-direction: row;
     flex-wrap: nowrap;
     margin: 10px;
-    justify-content: space-between;}
+    justify-content: space-between;
+  }
     
     /*Camisetas*/
 
@@ -229,7 +230,7 @@ body{
     flex-wrap: wrap;
     width: 100%;}
         
-    .pie-de-pagina img{
+    a img{    
     flex-direction: row;
     flex-wrap: nowrap;
     margin: 10px;

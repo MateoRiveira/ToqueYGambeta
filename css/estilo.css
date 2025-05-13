@@ -228,7 +228,7 @@ body {
     flex-wrap: wrap;
     width: 100%;
   }
-  .pie-de-pagina img {
+  a img {
     flex-direction: row;
     flex-wrap: nowrap;
     margin: 10px;
@@ -290,7 +290,7 @@ body {
     flex-wrap: wrap;
     width: 100%;
   }
-  .pie-de-pagina img {
+  a img {
     flex-direction: row;
     flex-wrap: nowrap;
     margin: 10px;
