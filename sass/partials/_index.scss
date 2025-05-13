@@ -5,14 +5,14 @@
     background-color:  variables.$azul-oscuro;
     color: variables.$gris;
     font-family: variables.$font;
-    font-size: 20px;}  
+    font-size: 2rem;}  
 
 .links-encabezados{
     list-style: none;
     margin: 0;
     padding: 0;
     color: variables.$gris;
-    font-size: 20px;
+    font-size: 1.5rem;
     margin-left: 90%; 
     font-family: variables.$font;}
 
@@ -22,6 +22,9 @@
     color: variables.$azul-oscuro;
     display: flex;
     flex-direction: row;
+    margin: 15px;
+    padding: 5px;
+    font-size: 2.2rem;
     margin-top: 15px;
     justify-content: center;
     grid-template-columns: 85%; 
@@ -35,7 +38,7 @@
     margin-top: 10px;
     border-radius: 66px 66px 66px 66px;
     font-family: variables.$font;
-    font-size: 100px;
+    font-size: 5.5rem;
     color: variables.$azul-oscuro;
     text-decoration: none;
     margin-left: 10px;}
@@ -51,7 +54,7 @@
     display: grid;
     grid-template-rows: auto;
     .opinion{
-        font-size: larger;
+        font-size: 1.5rem;
         border: 2px solid black;
         padding: 5px;}}    
 

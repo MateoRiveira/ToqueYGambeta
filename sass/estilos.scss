@@ -56,7 +56,7 @@ li {font-family: "Nunito Sans", sans-serif;
 
 
 .formulario{color: variables.$azul-oscuro;
-    font-size: 30px; 
+    font-size: 1.5rem; 
     font-weight: bold;
 }
 
@@ -81,7 +81,7 @@ body{
 
 .links{
     color: variables.$gris;
-    font-size: 30px;
+    font-size: 1.8rem;
     margin-left: 70px; 
     font-family: variables.$font;}
 
@@ -99,7 +99,7 @@ body{
     font-family: variables.$font;
     color: variables.$azul-oscuro;
     background-color: variables.$blanco;
-    font-size: 30px; 
+    font-size: 1.5rem; 
     text-transform: capitalize;
     text-align: center;
     font-weight: normal;
@@ -125,7 +125,7 @@ body{
     .intro{
     display: flex;
     flex-wrap: wrap;
-    font-size: 15px;
+    font-size: 1.2rem;
     align-items: center;
     padding: 10px;}
 
@@ -133,8 +133,8 @@ body{
     display: flex;
     @include variables.flex_config(column,flex-start,center);
     margin: 10px;
-    margin-left: 200px;
-    font-size: larger;}
+    margin-left: 350px;
+    font-size: 1.3rem}
 
     .links{
     display: flex;
@@ -142,12 +142,12 @@ body{
     margin: 5px;
     padding: 20px;
     margin-left: 20px;
-    font-size: larger; }
+    font-size: 1.1rem}
 
     .links-index{
     flex-direction: column;
     justify-content: flex-start;
-    font-size: 70px;}
+    font-size: 4rem}
 
     .contenedor-opinion{
     margin-top: 400px;}
@@ -168,17 +168,7 @@ body{
     justify-content: space-between;}
     
     /*Camisetas*/
-    .header-camisetas{
-    display: flex;
-    margin: 10px;
-    flex-direction: row;
-    justify-content: flex-start;
-    flex-wrap: wrap;
-    font-size: 30px;}
 
-
-    .imagenes-offcanva{
-    width: 100px;}
 
     .imagenes{
     display: flex;
@@ -187,23 +177,17 @@ body{
     align-items: flex-start;
     width: 120px;}
 
-    .subtitulo{
-    display: flex;
-    flex-wrap: wrap;
-    font-size: 35px;
-    justify-content: center;}
-
     .parrafos{
     display: flex;
     flex-direction: column;
-    font-size: 18px;
+    font-size: 1.2rem;
     justify-content: center;
     align-items: center;
     }
 
     .camisetas-equipos{
         display: flex;
-        font-size: 15px;
+        font-size: 1.5rem;
     }
 
     .ejecutivos{
@@ -219,7 +203,7 @@ body{
     .intro{
     display: flex;
     flex-wrap: wrap;
-    font-size: 15px;
+    font-size: 1.1rem;
     align-items: center;
     padding: 10px;}
 
@@ -227,15 +211,14 @@ body{
     display: flex;
     @include variables.flex_config(column,flex-start,center);
     margin: 10px;
-    margin-left: 300px;
-    font-size: larger;}
+    margin-left: 350px;
+    font-size: 1.3rem}
 
     
     .links-index{
     flex-direction: column;
     justify-content: flex-start;
-    font-size: 70px;
-    margin: 5px;}
+    font-size: 4rem}
 
     .contenedor-opinion{
     margin-top: 400px;}
@@ -258,19 +241,19 @@ body{
     margin: 5px;
     padding: 20px;
     margin-left: 20px;
-    font-size: larger; }
+    font-size: 1.1rem}
 
     .parrafos{
     display: flex;
     flex-direction: column;
-    font-size: 18px;
+    font-size: 1.2rem;
     justify-content: center;
     align-items: center;
     }
 
     .camisetas-equipos{
     display: flex;
-    font-size: 15px;
+    font-size: 1.5rem;
     }
 
 
