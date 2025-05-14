@@ -171,12 +171,7 @@ body{
     /*Camisetas*/
 
 
-    .imagenes{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    align-items: flex-start;
-    width: 120px;}
+
 
     .parrafos{
     display: flex;
@@ -258,6 +253,29 @@ body{
     }
 
 
+    .pie-de-pagina{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;}
+        
+    a img {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin: 10px;
+    justify-content: space-between;
+  }
+
+    .ejecutivos{
+        display: flex;
+        margin-left: 150px;
+        height: 100%;
+        
+    }
+    
+    .card-group{
+        display: grid;
+    }
 
 
 

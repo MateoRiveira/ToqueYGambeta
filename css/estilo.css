@@ -152,7 +152,7 @@ body {
   background-color: #213555;
   width: 100%;
   color: #D8C4B6;
-  margin-top: 300px;
+  margin-top: 400px;
   font-family: "Nunito Sans", sans-serif;
 }
 
@@ -231,13 +231,6 @@ body {
     justify-content: space-between;
   }
   /*Camisetas*/
-  .imagenes {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    align-items: flex-start;
-    width: 120px;
-  }
   .parrafos {
     display: flex;
     flex-direction: column;
@@ -312,6 +305,26 @@ body {
   .camisetas-equipos {
     display: flex;
     font-size: 1.5rem;
+  }
+  .pie-de-pagina {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  a img {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin: 10px;
+    justify-content: space-between;
+  }
+  .ejecutivos {
+    display: flex;
+    margin-left: 150px;
+    height: 100%;
+  }
+  .card-group {
+    display: grid;
   }
 }
 
