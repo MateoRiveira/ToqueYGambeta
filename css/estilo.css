@@ -180,6 +180,9 @@ body {
 
 /*MEDIA QUERYS*/
 @media (max-width: 576px) {
+  body {
+    overflow-x: hidden;
+  }
   /*index*/
   .intro {
     display: flex;
