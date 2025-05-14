@@ -130,7 +130,6 @@ body{
     padding: 10px;}
 
     .links-encabezados{
-    display: flex;
     @include variables.flex_config(column,flex-start,center);
     margin: 10px;
     margin-left: 350px;
