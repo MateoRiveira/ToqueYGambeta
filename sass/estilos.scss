@@ -135,12 +135,15 @@ body{
     margin-left: 350px;
     font-size: 1.3rem}
 
+    .encabezado{
+        display: flex;
+    }
+
     .links{
     display: flex;
     @include variables.flex_config(row,flex-start,center);
-    margin: 5px;
-    padding: 20px;
-    margin-left: 20px;
+    margin: 2px;
+    padding: 15px;
     font-size: 1.1rem}
 
     .links-index{
@@ -160,24 +163,17 @@ body{
     flex-wrap: wrap;
     width: 100%;}
         
-  a img {
+    a img {
     flex-direction: row;
     flex-wrap: nowrap;
     margin: 10px;
     justify-content: space-between;
-  }
+    }
     
-    /*Camisetas*/
-
-
-
-
     .parrafos{
     display: flex;
-    flex-direction: column;
     font-size: 1.2rem;
-    justify-content: center;
-    align-items: center;
+    @include variables.flex_config(column, center, center)
     }
 
     .camisetas-equipos{
@@ -203,7 +199,6 @@ body{
     padding: 10px;}
 
     .links-encabezados{
-    display: flex;
     @include variables.flex_config(column,flex-start,center);
     margin: 10px;
     margin-left: 350px;

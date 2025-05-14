@@ -189,7 +189,6 @@ body {
     padding: 10px;
   }
   .links-encabezados {
-    display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
@@ -197,14 +196,16 @@ body {
     margin-left: 350px;
     font-size: 1.3rem;
   }
+  .encabezado {
+    display: flex;
+  }
   .links {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
-    margin: 5px;
-    padding: 20px;
-    margin-left: 20px;
+    margin: 2px;
+    padding: 15px;
     font-size: 1.1rem;
   }
   .links-index {
@@ -230,11 +231,10 @@ body {
     margin: 10px;
     justify-content: space-between;
   }
-  /*Camisetas*/
   .parrafos {
     display: flex;
-    flex-direction: column;
     font-size: 1.2rem;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
   }
@@ -257,7 +257,6 @@ body {
     padding: 10px;
   }
   .links-encabezados {
-    display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
