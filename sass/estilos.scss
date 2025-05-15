@@ -138,16 +138,12 @@ body{
     margin-left: 350px;
     font-size: 1.3rem}
 
-    .encabezado{
-        display: flex;
-    }
-
     .links{
     display: flex;
     @include variables.flex_config(row,flex-start,center);
     margin: 2px;
     padding: 15px;
-    font-size: 1.1rem}
+    font-size: 1.1rem;}
 
     .links-index{
     flex-direction: column;
@@ -170,13 +166,13 @@ body{
     flex-direction: row;
     flex-wrap: nowrap;
     margin: 10px;
-    justify-content: space-between;
+    justify-content: space-between; 
     }
     
     .parrafos{
     display: flex;
     font-size: 1.2rem;
-    @include variables.flex_config(column, center, center)
+    @include variables.flex_config(column, center, center);
     }
 
     .camisetas-equipos{

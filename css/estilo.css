@@ -199,9 +199,6 @@ body {
     margin-left: 350px;
     font-size: 1.3rem;
   }
-  .encabezado {
-    display: flex;
-  }
   .links {
     display: flex;
     flex-direction: row;
