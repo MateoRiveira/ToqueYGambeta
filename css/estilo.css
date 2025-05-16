@@ -178,6 +178,11 @@ body {
   margin-left: 450px;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 /*MEDIA QUERYS*/
 @media (max-width: 576px) {
   body {
@@ -246,6 +251,10 @@ body {
     display: flex;
     margin-left: 150px;
     height: 100%;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
   }
 }
 @media (min-width: 577px) and (max-width: 1110px) {

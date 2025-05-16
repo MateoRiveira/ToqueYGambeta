@@ -115,6 +115,10 @@ body{
     margin-left: 450px;
 
 }
+img {
+  max-width: 100%;
+  height: auto;
+}
 
 
 
@@ -186,6 +190,18 @@ body{
         height: 100%;
         
     }
+
+    img {
+    max-width: 100%;
+    height: auto; 
+    }
+
+
+    
+
+
+    
+
 }
 
 @media (min-width: 577px) and (max-width:1110px) {
@@ -202,7 +218,6 @@ body{
     margin: 10px;
     margin-left: 350px;
     font-size: 1.3rem}
-
     
     .links-index{
     flex-direction: column;
@@ -269,10 +284,5 @@ body{
     .card-group{
         display: grid;
     }
-
-
-
-
-
 
 } 
